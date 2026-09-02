@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "PSA/Stellantis OAuth Code Extractor",
+  "version": "1.0",
+  "permissions": [
+    "webRequest",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://idpcvs.citroen.com/*",
+    "https://id-dcr.citroen.com/*",
+    "https://idpcvs.opel.com/*",
+    "https://id-dcr.opel.com/*",
+    "https://idpcvs.driveds.com/*",
+    "https://id-dcr.driveds.com/*",
+    "https://idpcvs.peugeot.com/*",
+    "https://id-dcr.peugeot.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
